@@ -1,5 +1,11 @@
-lower=int(input(""))
-upper=int(input(""))
-for i in range(lower,upper+1):
-    if(i%2!=0):
-        print(i)
+n=input(input(""))
+if n>1:
+    for i in range(2,n):
+        if(n%i)==0:
+            print("no")
+            break
+         else:
+            print("yes")
+         else:
+            print("no")
+    
