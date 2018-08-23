@@ -1,4 +1,4 @@
-string=input(" ")
+string=input("")
 space=0
 for i in string:
     if(i==' '):
