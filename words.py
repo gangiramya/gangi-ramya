@@ -1,4 +1,4 @@
-string=input("")
+string=input(" ")
 word=1
 for i in string:
     if(i==' '):
